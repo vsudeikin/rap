@@ -1,0 +1,148 @@
+body {
+	background: #c1c1c1 url(../img/bg.png) center center no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: Arial, Tahoma;
+	font-size: 14px;
+
+}
+
+.facebook {
+	position: fixed;
+	top:45%;
+	left: -20px;
+}
+
+#youtube {
+	background: url(../img/yt.png) top center no-repeat;
+	display: block;
+	width: 40px;
+	height: 89px;	
+	margin-left: 20px;
+	position: relative;
+	left: 770px;
+	bottom: 80px;
+}
+
+#youtube:hover{
+	left:760px;
+}
+
+.facebook:hover {
+	left: 0px;
+	cursor:pointer;
+}
+table {
+	border: 0px solid #000;
+	width: 800px;
+	border-spacing: 0px;
+	margin: auto;
+	
+
+}
+
+#main-table{
+	border-right: 1px solid #999;
+	border-left: 1px solid #999;
+}
+
+
+#header {
+background: url(../img/header.png) top center repeat-x;
+height: 102px;
+padding: 0;
+}
+
+#logo {
+	background: url(../img/logo.png) top center no-repeat;
+	display: block;
+	width: 225px;
+	height: 84px;	
+	margin-left: 20px;
+}
+
+#menu {
+	background: #000;
+	height: 31px;
+}
+
+#content {
+	height: 400px;
+	background: #fff;
+	vertical-align: top;
+	padding: 40px;
+}
+
+#footer {
+	background: url(../img/footer.png) top center;
+	height: 140px;
+}
+
+#menu a{
+	color: white;
+	text-decoration: none;
+	margin: 0 30px;
+}
+
+#menu a:hover{
+	color: #d6f507;
+}
+
+.news {
+width: 675px;
+}
+
+.news a{
+	text-decoration: none;
+	color:c81818;
+	font-size: 16px;
+	font-weight: bold;
+	font-weight: Tahoma;
+	
+}
+.news a:hover{
+	text-decoration: underline;
+}
+
+.news-text {
+	margin: 10px 0 10px 10px;
+	text-align: justify;
+}
+
+.read-more a{
+	font-size:14px !important;
+	font-weight: normal;
+}
+
+.news-title a, .read-more a{
+	padding-left: 10px;
+}
+
+.news-line {
+	margin-bottom:20px;
+	margin-top:10px;
+	text-align: center;
+}
+
+.footer-block {
+	float:left;
+}
+
+.footer-block a{
+	font-size: 12px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	margin: 2px 50px;
+}
+
+.footer-block a:hover{
+	color: yellow;
+}
+
+.footer-line{
+ background: url(../img/footer-line.png) top center repeat-y;
+ width: 1px;
+ height: 80px;
+ float: left;
+}
